@@ -1,0 +1,37 @@
+repositories:
+
+##############
+#  Autonomy  #
+##############
+
+  # LIVOX LIDAR
+  autonomy/livox_ros_driver2:
+   type: git
+   url: git@github.com:wvu-urc/livox_ros_driver2.git
+   version: master
+
+  # YOLO
+  autonomy/object_detect_2025:
+    type: git
+    url: git@github.com:wvu-urc/object_detection_2025.git
+    version: main
+
+  # ARUCO DETECT
+  autonomy/ros2_aruco:
+    type: git
+    url: git@github.com:wvu-urc/ros2_aruco.git
+    version: main
+
+  # CAMERA MANAGER
+  cameras/CameraManager:
+    type: git
+    url: git@github.com:wvu-urc/CameraManager.git
+    version: jetson
+
+
+
+  # AUTONOMY
+  autonomy/autonomy_2025:
+    type: git
+    url: git@github.com:wvu-urc/autonomy_2025.git
+    version: main
